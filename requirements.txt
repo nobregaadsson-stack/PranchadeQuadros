@@ -1,0 +1,6 @@
+# Dependências de execução (versões testadas com Python 3.14, Windows 11 64 bits)
+# Todas são distribuídas como wheels pré-compiladas; nada é baixado durante o uso do aplicativo.
+PySide6-Essentials==6.12.0   # interface gráfica (Qt 6) — LGPLv3
+PySide6-Addons==6.12.0       # QtMultimedia (reprodutor com back-end FFmpeg) — LGPLv3
+Pillow==12.3.0               # composição e exportação PNG/JPEG/PDF — licença MIT-CMU
+av==19.0.1                   # PyAV: bibliotecas FFmpeg embutidas (leitura/decodificação) — BSD + FFmpeg
